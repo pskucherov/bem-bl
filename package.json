@@ -10,7 +10,11 @@
   "devDependencies": {
     "mocha": "1.2.x",
     "benchmark": "~1.0.0",
-    "microtime": "~0.3.1"
+    "microtime": "~0.3.1",
+    "jshint": "2.1.8",
+    "jshint-groups": "0.5.1",
+    "jscs": "1.0.0",
+    "git-hooks": "0.0.3"
   },
   "scripts": {
     "test": "mocha --ui tdd --growl --reporter spec blocks-common/i-bem/__html/test/*-test.js blocks-common/i-bem/__i18n/test/test-*.js"
